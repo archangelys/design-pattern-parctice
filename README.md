@@ -1,2 +1,2 @@
-design-parten-parctice
+Design-parten-parctice
 ======================
