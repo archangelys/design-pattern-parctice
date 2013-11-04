@@ -1,24 +1,24 @@
-package DecoratorMode;
+package decoratorMode;
 
-public class Latin extends Beverage {
-
+public class Moca extends Beverage {
+	
 	private Beverage beverage;
 	
-	public Latin (Beverage ab) {
+	public Moca (Beverage ab) {
 		this.beverage = ab;
 	}
 	
 	@Override
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return beverage.getDescription() + " with Latin";
+		return beverage.getDescription() + " with Moca";
 	}
 
 	@Override
 	public String getCost() {
 		// TODO Auto-generated method stub
 		int cost = Integer.parseInt( beverage.getCost() );
-		cost += 8;
+		cost += 5;
 		return Integer.toString(cost);
 	}
 

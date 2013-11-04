@@ -1,4 +1,4 @@
-package DecoratorMode;
+package decoratorMode;
 
 public class MilkTea extends Beverage {
 

@@ -1,4 +1,4 @@
-package DecoratorMode;
+package decoratorMode;
 
 public abstract class Beverage {
 	abstract public String getDescription();

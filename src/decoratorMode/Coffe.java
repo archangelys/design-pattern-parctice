@@ -1,4 +1,4 @@
-package DecoratorMode;
+package decoratorMode;
 
 public class Coffe extends Beverage {
 
